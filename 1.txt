@@ -1,0 +1,21 @@
+## git 필기 코드 필기내용 
+
+git add   기록 
+git commit 버전들 기록 (add 한번만 하고 그 이후에는 git commit만 해주기!)
+git commit -m 커밋 메시지 (-m 메시지를 의미함)
+thouch 파일명 (파일생성)
+git config --global user.email "s.yeonjweb@gmail.com"
+git config --global user.name "KDT SY"
+git commit -m '보고서 초안 작성'
+git config --global -l 
+(저장한 메일,유저이름 기록 확인시 사용됨)
+git status
+On branch master
+nothing to commit, working tree 
+clean (*commit 할것 없고 작업 트리가 깨끗하다_ 지난번 저장 이후 작업한것이 없다.)
+git status
+On branch master
+Changes not staged for commit: 
+*(상황) 커밋된적 있는 보고서 .txt파일을 수정한 상태!*
+​unmodified_이전 commit에 등록되어있지만 수정한게 없는 상태의 파일
+git log (보고서 버전을 볼 수있음)
